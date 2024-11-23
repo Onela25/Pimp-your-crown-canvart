@@ -151,6 +151,57 @@ header {
 .cta-button:hover {
     background: #a05899;
 }
+.services-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-item video {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 
 
 footer {
