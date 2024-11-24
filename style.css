@@ -142,10 +142,8 @@ header {
     border: none;
 }
 
-.service-content {
-    padding: 15px;
-    background-color: #fff;
-}
+    
+
 
 .service-content h3 {
     margin: 10px 0;
@@ -209,7 +207,8 @@ header {
 .services-section {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f4f4f4;
+    background-color:#f5873d ;
+   
 }
 
 .services-grid {
@@ -220,7 +219,7 @@ header {
 }
 
 .service-item {
-    background-color: #fff;
+    background-color: #f5873d;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
